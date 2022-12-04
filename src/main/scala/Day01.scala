@@ -1,3 +1,5 @@
+package aoc2022
+
 import scala.io.Source
 import scala.util.Try
 
