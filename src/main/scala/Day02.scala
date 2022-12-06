@@ -22,12 +22,10 @@ end MatchResult
 object Hand:
 
   def fromScore(score: Int): Hand = {
-    score match {
+    score % 3 match {
       case 0 => Scissors
       case 1 => Rock
       case 2 => Paper
-      case 3 => Scissors
-      case 4 => Rock
     }
   }
 
