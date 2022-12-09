@@ -1,7 +1,6 @@
 package aoc2022
 
 import scala.io.Source
-import scala.collection.mutable.Queue
 import scala.util.matching.Regex
 
 object Day05 extends App:
